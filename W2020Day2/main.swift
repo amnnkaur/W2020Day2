@@ -8,5 +8,13 @@
 
 import Foundation
 
-print("Hello, World!")
+var str = "Hello World!"
 
+for c in str {
+    
+    print(c)
+}
+
+str.append("G")
+
+print(str)
