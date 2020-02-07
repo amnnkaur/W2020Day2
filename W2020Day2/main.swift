@@ -52,13 +52,13 @@ print(name.lowercased())
 print(name.uppercased())
 
 
-print(name.first)
-print(name.last)
+print(name.first!)
+print(name.last!)
 
 let A = "A" as Character
 
 print(A.isASCII)
-print(A.asciiValue)
+print(A.asciiValue!)
 
 let flag = "🇵🇷"
 print(flag.count)
@@ -132,7 +132,7 @@ c1[2] = "Hello"
 print(c1)
 print(country)
 
-var x = Array(repeating: "🌺", count: 10)
+var x = Array(repeating: "🌺", count: 5)
 print(x)
 print(type(of: country))
 print(type(of: c1))
