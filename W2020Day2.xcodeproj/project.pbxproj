@@ -41,8 +41,8 @@
 		9B5A0A6123ECDC2E006B5A17 = {
 			isa = PBXGroup;
 			children = (
-				9B5A0A6C23ECDC2E006B5A17 /* W2020Day2 */,
 				9B5A0A6B23ECDC2E006B5A17 /* Products */,
+				9B5A0A6C23ECDC2E006B5A17 /* W2020Day2 */,
 			);
 			sourceTree = "<group>";
 		};
