@@ -8,7 +8,7 @@
 
 import Foundation
 
-var str = "Hello World!"
+var str = "Hello World! 🌍"
 
 for c in str {
     
@@ -18,3 +18,44 @@ for c in str {
 str.append("G")
 
 print(str)
+
+print(str.count)
+
+print(str.unicodeScalars.count)
+ 
+print(str.endIndex)
+print(str.startIndex)
+
+str.insert("A", at: str.startIndex)
+
+print(str)
+
+var name = "Welcome to lambton college, Toronto"
+
+print(name.hasPrefix("Welcome"))
+
+print(name.hasSuffix("Toronto"))
+
+print(name.contains("lambton"))
+
+print(name.isEmpty)
+
+var s = ""
+
+print(s.isEmpty)
+
+var k = String()
+
+print(k.isEmpty)
+
+print(name.lowercased())
+print(name.uppercased())
+
+
+print(name.first)
+print(name.last)
+
+let A = "A" as Character
+
+print(A.isASCII)
+print(A.asciiValue)
